@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançador de dúvidas</title>
+    <link rel="stylesheet" type="text/css" href="stile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imgs/Logotipo.png">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="sublinhado"><a href="index.html">Introdução</a></li>
+            <li><a href="lhorizontal.html">Lançamento Horizontal</a></li>
+            <li><img src="./imgs/Logotipo.png"
+                    alt="Logotipo do site, é um desenho de um lançamento oblíquo feito com palavras"></li>
+            <li><a href="lobliquo.html">Lançamento Oblíquo</a></li>
+            <li><a href="exercicios.html">Exercícios Resolvidos</a></li>
+        </ul>
+    </header>
+    <main>
+        <a id="sorvetinho" href="https://poki.com.br/g/bad-ice-cream"><img src="./imgs/bad_icream.png"
+                alt="sorvetinho do mau"></a>
+        <p class="impar" id="semclear">
+            Para começarmos nossos estudos sobre os lançamentos horizontal e oblíquo no
+            vácuo, todos devemos ter uma noção básica sobre movimento uniforme (MRU),
+            movimento uniformemente variado (MRUV):
+        </p>
+        <iframe class="impar" width="560" height="315" src="https://www.youtube.com/embed/4nbrPfeBbWY"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p class="par">
+            e vetores:
+        </p>
+        <iframe class="par" width="560" height="315" src="https://www.youtube.com/embed/lexlX6PurIU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p class="impar">
+            Como o foco deste site não é esse, deixei algumas video aulas para os que
+            ainda não entendem dos assuntos listados.
+        </p>
+        <p class="impar">
+            Agora que você já conhece o básico, vamos introduzir o assunto de nosso
+            interesse. Primeiramente, vamos definir o <a href="lhorizontal.html">Lançamento Horizontal</a>.
+        </p>
+        <p class="impar">
+            Lançamento Horizontal é a situação aonde um corpo inicia sua trajetória com uma
+            velocidade horizontal (constante) e no instante seguinte cai sob efeito da gravidade,
+            tendo, agora, uma velocidade resultante da soma dos vetores: velocidade horizontal
+            (Vx) e velocidade vertical (Vy). Observe o exemplo mais clássico que existe, a
+            bola caindo da mesa:
+        </p>
+        <img class="imgbola" src="./imgs/lancamento_bola.png" alt="Uma bola sendo lançada de uma mesa">
+        <p class="impar legenda">
+            Imagem retirada <a
+                href="https://blog.professorbrunofernandes.com.br/2019/06/06/resumo-de-fisica-lancamento-horizontal/">daqui</a>.
+        </p>
+        <p class="par">
+            Já o <a href="lobliquo.html">Lançamento Oblíquo</a>, é iniciado com o arremesso de um corpo formando
+            determinado ângulo com o eixo X, desempenhando um trajeto em forma de parábola,
+            aonde ele sobe e desce (MRUV) ao mesmo tempo que se desloca horizontalmente
+            (MRU). A trajetória de uma bola de futebol descreve perfeitamente esse
+            lançamento, observe logo abaixo:
+        </p>
+        <img class="imgbola par" src="./imgs/obliquo_bola.jpg" alt="Lançamento de uma bola de futebol">
+        <p class="legenda par">
+            Imagem retirada <a href="https://brainly.com.br/tarefa/29369059">daqui</a>.
+        </p>
+        <p class="par">
+            Agora, você está totalmente preparado para se aprofundar nos lançamentos, guerreiro!
+        </p>
+        <table border="2%">
+            <thead>
+                <caption><strong>Fórmulas</strong></caption>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Lançamento Horizontal</th>
+                    <th>Lançamento Oblíquo</th>
+                    <th>Vetores</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MRU</td>
+                    <td>X=X&#8320;+VxT</td>
+                    <td>A=VxT</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">MRUV</td>
+                    <td>Vy²=2G▲y</td>
+                    <td>Vy²=V&#8320;²+2G▲y</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Vy=GT</td>
+                    <td>Vy=V&#8320;y+GT</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Y=Y&#8320;+GT²/2</td>
+                    <td>Y=V&#8320;yT+GT²/2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Soma</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Vs²=A²+B²+2ABcos&Theta;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Decomposição</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Vy=Vsen&Theta;</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Vx=V&#8320;cos&Theta;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="impar">
+            <a href="index.html">Voltar ao topo</a>
+        </p>
+    </main>
+    <footer>
+        <img id="logofinal" src="./imgs/Logotipo.png" alt="Logotipo">
+        <p>
+            Site desenvolvido por um estudante do Cefet-MG, do curso de informática,
+            em um trabalho para a disciplina de Programação Web.
+        </p>
+        <p>
+            Ele se chama Gabriel, tem 15 anos e está cursando o 1° ano do Ensino Médio.
+            Tem afinidade com a Física - afinal, este não é um site sobre ecossistemas -
+            e gostaria de ver mais pessoas descobrindo as magias dela, ou então, apenas
+            perdendo os preconceitos.
+        </p>
+        <p>
+            Ele traz como foco principal os lançamentos oblíquo e horizontal, pois,
+            apesar de não serem muito comuns nas escolas, tampouco complexos ou
+            extraordinários, atraíram muito este aluno, lhe mostrando que a Física
+            pode ser entendida e até mesmo divertida.
+        </p>
+    </footer>
+</body>
+
+</html>
