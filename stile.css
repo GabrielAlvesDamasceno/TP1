@@ -51,10 +51,14 @@ li {
     margin-left: 2%;
 }
 
-a img {
-    width: 3%;
+.easteregg {
+    text-size: 200%;
     float: right;
-    animation: girando .5s ease-in 0s infinite alternate;
+    animation: girando .5s ease-in-out 0s infinite alternate;
+    text-decoration: none;
+    position: sticky;
+    right: 1%;
+    top: 5%;
 }
 
 @keyframes girando {
@@ -67,7 +71,7 @@ a img {
     }
 }
 
-#semclear {
+.semclear {
     clear: none;
 }
 
@@ -129,4 +133,29 @@ footer p {
     border: #FFDE59 solid 1%;
     padding-right: 1.5%;
     margin-left: 3%;
+}
+#arremesso{
+    margin-left: 45%;
+    margin-right: 49.5%;
+    opacity: 1;
+    background: none;
+    font-size: 300%;
+    position: relative;
+    animation: lhorizontal 3s ease-in 0s infinite normal;
+}
+@keyframes lhorizontal {
+    to{
+        top: 0;
+        left:0;
+    }
+    from{
+        transform: translateY(-100%);
+        left: -10%;
+    }
+}
+dl{
+    opacity: .8;
+}
+#creditos{
+    font-size: 85%;
 }
