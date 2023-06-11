@@ -153,8 +153,15 @@ footer p {
         left: -10%;
     }
 }
+main li{
+    opacity: .8;
+    display: block;
+}
 dl{
     opacity: .8;
+}
+dd{
+    margin-left: 0%;
 }
 #creditos{
     font-size: 85%;
