@@ -54,7 +54,7 @@ li {
 .easteregg {
     text-size: 200%;
     float: right;
-    animation: girando .5s ease-in-out 0s infinite alternate;
+    animation: girando 3.5s ease-in-out 0s infinite alternate;
     text-decoration: none;
     position: sticky;
     right: 1%;
@@ -99,7 +99,7 @@ main p {
     width: 20%;
 }
 .imgbola:hover{
-    animation: girando .5s ease-in 0s infinite alternate;
+    animation: girando 2s ease-in 0s infinite alternate;
 }
 
 .legenda{
@@ -162,6 +162,23 @@ dl{
 }
 dd{
     margin-left: 0%;
+}
+.bee{
+    width: 3.5%;
+    transition: transform 400ms linear;
+}
+.bee:hover{
+    transform: translateY(10%);
+}
+.beer{
+    float: right;       
+}
+
+.beel{
+    float: left;
+}
+#bee1{
+    margin-left: 45%;
 }
 #creditos{
     font-size: 85%;
