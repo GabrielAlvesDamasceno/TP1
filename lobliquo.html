@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imgs/Logotipo.png">
 </head>
+
 <body>
     <header>
         <ul>
@@ -26,9 +28,74 @@
         </ul>
     </header>
     <main>
-        <a class="easteregg" href="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=pt_BR">☄️</a>
-
-
+        <a class="easteregg"
+            href="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=pt_BR">☄️</a>
+        <h3 class="semclear">Lançamento Oblíquo</h3>
+        <p class="impar">
+            Como vimos na <a href="index.html">introdução</a>, o <strong>Lançamento Oblíquo</strong> é um arremesso em
+            que existe determinado ângulo(&theta;)
+            com a horizontal no início do lançamento, percorrendo um trajeto com formato de uma parábola.
+            Assim como no <a href="lhorizontal.html">Lançamento Horizontal</a>, visto anteriormente, esse descreve um
+            <strong>MRU</strong> horizontalmente
+            e <strong>MRUV</strong> verticalmente.
+        </p>
+        <p class="impar">
+            Eu gosto de pensar, mesmo nunca tendo visto em lugar algum, que o Lançamento Oblíquo é como um Lançamento
+            Horizontal espelhado, logo os cálculos
+            que realizamos nos dois são semelhantes e com a mesma linha de raciocínio.
+        </p>
+        <img class="bee beer" src="./imgs/bee2.png">
+        <p class="par semclear">
+            Observemos a imagem abaixo:
+        </p>
+        <img id="lobliquo" class="imgbola par" src="./imgs/lobliquo.png">
+        <p class="par">
+            <strong>Conclusões a que podemos chegar:</strong>
+        </p>
+        <ul class="par">
+            <li>Vx é constante em todo o trajeto;</li>
+            <p></p>
+            <li>no ponto de altura máxima(H) Vy é nula, logo V=Vx neste instante;</li>
+            <p></p>
+            <li>Vx=V&#8320;cos&Theta; e Vy=Vsen&Theta;;</li>
+            <p></p>
+            <li>V²=Vx²+Vy²;</li>
+            <p></p>
+            <li>o tempo(T) no alcance máximo(A) é o dobro de T em H;</li>
+            <p></p>
+            <li> a aceleração do corpo é a gravidade(G), logo se considerarmos o
+                eixo Y crescendo
+                para cima a=-G,</li>
+            <p></p>
+            <li>o módulo de Vy diminui à medida que o corpo sobe e aumenta à medida
+                que ele cai.</li>
+        </ul>
+        <img class="bee beel" id="b3" src="./imgs/bee.png">
+        <p class="impar sem clear">
+            <strong>Agora vamos para as fórmulas:</strong>
+        </p>
+        <ul class="impar">
+            <li>Movimento horizontal</li>
+            <ul>
+                <li>A=VxT</li>
+            </ul>
+            <li>Movimento vertical</li>
+            <ul>
+                <li>H=V&#8320;yT-(GT²)/2</li>
+                <li>Vy=V&#8320;y-GT</li>
+                <li>Vy²=V&#8320;y²-2GH</li>
+            </ul>
+        </ul>
+        <p class="impar">
+            Se você pesquisar, encontrará em outros sites fórmulas diferentes e mais específicas, é agora
+            que você se pergunta o porquê de eu deixar somente as mais básicas aqui. Eu, particularmente, não
+            gosto de decorar fórmulas e essas mais sofisticadas são apenas manipulações das que estão neste
+            site, portanto, ao resolver exercícios você pode simplesmente manipulá-las e chegar ao mesmo resultado.
+        </p>
+        <p class="par">
+            Essa manipulação fará você compreender melhor a matéria, além de ocupar menos espaço na memória. Mas se você 
+            insiste, deixo aqui um <a href="https://www.todamateria.com.br/lancamento-obliquo/">link para um site com as tais fórmulas</a>.
+        </p>
         <table border="2%">
             <thead>
                 <caption><strong>Fórmulas</strong></caption>
@@ -42,14 +109,14 @@
             <tbody>
                 <tr>
                     <td>MRU</td>
-                    <td>X=X&#8320;+VxT</td>
+                    <td>A=VxT</td>
                     <td>A=VxT</td>
                     <td>-</td>
                 </tr>
                 <tr>
                     <td rowspan="3">MRUV</td>
-                    <td>Vy²=-2G▲y</td>
-                    <td>Vy²=V&#8320;²-2G▲y</td>
+                    <td>Vy²=-2GH</td>
+                    <td>Vy²=V&#8320;y²-2GH</td>
                     <td>-</td>
                 </tr>
                 <tr>
@@ -58,8 +125,8 @@
                     <td>-</td>
                 </tr>
                 <tr>
-                    <td>Y=Y&#8320;-GT²/2</td>
-                    <td>Y=V&#8320;yT-GT²/2</td>
+                    <td>H=H&#8320;-(GT²)/2</td>
+                    <td>H=V&#8320;yT-(GT²)/2</td>
                     <td>-</td>
                 </tr>
                 <tr>
@@ -81,7 +148,8 @@
                 </tr>
             </tbody>
         </table>
-        <p class="impar">
+        <img class="bee beer" src="./imgs/bee2.png">
+        <p class="impar semclear">
             <a href="lobliquo.html">Voltar ao topo 🧚</a>
         </p>
     </main>
@@ -105,4 +173,5 @@
         </p>
     </footer>
 </body>
+
 </html>

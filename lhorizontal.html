@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imgs/Logotipo.png">
 </head>
+
 <body>
     <header>
         <ul>
@@ -25,28 +27,39 @@
             <li><a href="exercicios.html">Exercícios Resolvidos</a></li>
         </ul>
     </header>
-    <main> 
-        <a class="easteregg" href="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=pt_BR">☄️</a>
+    <main>
+        <a class="easteregg"
+            href="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_all.html?locale=pt_BR">☄️</a>
+        
+        <h3 class="semclear">Lançamento Horizontal</h3>
         <p class="impar semclear">
-            Como dito na <a href="index.html">introdução</a>, o <strong>Lançamento Horizontal</strong> é a situação aonde um 
-            corpo inicia sua trajetória com uma velocidade horizontal e no instante seguinte cai sob efeito 
+            Como dito na <a href="index.html">introdução</a>, o <strong>Lançamento Horizontal</strong> é a situação
+            aonde um
+            corpo inicia sua trajetória com uma velocidade horizontal e no instante seguinte cai sob efeito
             da gravidade.
         </p>
-        <p id="arremesso">⚽</p>
+        <img class="bee beel" src="./imgs/bee.png">
+        <p class="semclear" id="arremesso">⚽</p>
         <p class="par">
-            Nesse tipo de lançamento, podemos observar dois movimentos simultaneamente, horizontal descrito pelo <strong>(MRU)</strong> e de 
-            queda livre descrito pelo <strong>(MRUV)</strong>. Logo, as fórmulas que usamos, além das de vetores, não são novidade, 
+            Nesse tipo de lançamento, podemos observar dois movimentos simultaneamente, horizontal descrito pelo
+            <strong>MRU</strong> e de
+            queda livre descrito pelo <strong>MRUV</strong>. Logo, as fórmulas que usamos, além das de vetores, não são
+            novidade,
             pois já fomos preparados na introdução deste site.
         </p>
         <p class="impar">
-            Em cada ponto da trajetória a velocidade é resultado da soma vetorial entre as componentes horizontal(constante) e vertical(variada).
+            Em cada ponto da trajetória a velocidade é resultado da soma vetorial entre as componentes
+            horizontal(constante) e vertical(variada).
         </p>
         <img class="impar imgbola" src="./imgs/horizontal_img.png">
         <p class="impar">
-            Como podemos observar na imagem, V&#8320; é igual à Vx, pois neste instante Vy é nulo e seu módulo aumenta conforme o tempo passa.
+            Como podemos observar na imagem, V&#8320; é igual à Vx, pois neste instante Vy é nulo e seu módulo aumenta
+            conforme o tempo passa.
         </p>
-        <p class="impar">
-            Ao fazermos nossa análise do lançamento, podemos considerar o eixo y crescendo para cima ou para baixo, neste site adotaremos o 
+        <img class="bee beer" id="b2" src="./imgs/bee2.png">
+        <p class="impar semclear">
+            Ao fazermos nossa análise do lançamento, podemos considerar o eixo y crescendo para cima ou para baixo,
+            neste site adotaremos o
             primeiro modo. Logo, em nossos cálculos, a gravidade será negativa.
         </p>
         <p class="par">
@@ -59,18 +72,12 @@
         <p class="par">
             <strong>Verticalmente:</strong>
         </p>
-        <ul class="par">
+        <ul class="par semclear">
             <li>Vy²=-2Gy</li>
             <li>Vy=-GT</li>
-            <li>h=GT²/2</li>
+            <li>H=GT²/2</li>
         </ul>
-        <dl class="par">
-            <dd><strong>Equivalências:</strong></dd>
-            <dt>Vy=V</dt>
-            <dt>Vx=V</dt>
-            <dt>G=a</dt>
-            <dt>Y=X=h=s=d=A</dt>
-        </dl>
+        <img class="bee beel" src="./imgs/bee.png">
         <table border="2%">
             <thead>
                 <caption><strong>Fórmulas</strong></caption>
@@ -84,14 +91,14 @@
             <tbody>
                 <tr>
                     <td>MRU</td>
-                    <td>X=X&#8320;+VxT</td>
+                    <td>A=VxT</td>
                     <td>A=VxT</td>
                     <td>-</td>
                 </tr>
                 <tr>
                     <td rowspan="3">MRUV</td>
-                    <td>Vy²=-2G▲y</td>
-                    <td>Vy²=V&#8320;²-2G▲y</td>
+                    <td>Vy²=-2GH</td>
+                    <td>Vy²=V&#8320;y²-2GH</td>
                     <td>-</td>
                 </tr>
                 <tr>
@@ -100,8 +107,8 @@
                     <td>-</td>
                 </tr>
                 <tr>
-                    <td>Y=Y&#8320;-GT²/2</td>
-                    <td>Y=V&#8320;yT-GT²/2</td>
+                    <td>H=H&#8320;-(GT²)/2</td>
+                    <td>H=V&#8320;yT-(GT²)/2</td>
                     <td>-</td>
                 </tr>
                 <tr>
@@ -123,13 +130,14 @@
                 </tr>
             </tbody>
         </table>
-        <p class="impar">
+
+        <p class="impar semclear">
             <a href="lhorizontal.html">Voltar ao topo 🧚</a>
         </p>
     </main>
     <footer>
         <img id="logofinal" src="./imgs/Logotipo.png" alt="Logotipo">
-        
+
         <p>
             Site desenvolvido por um estudante do Cefet-MG, do curso de informática,
             em um trabalho para a disciplina de Programação Web.
@@ -148,4 +156,5 @@
         </p>
     </footer>
 </body>
+
 </html>

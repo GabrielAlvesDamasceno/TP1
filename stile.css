@@ -12,7 +12,7 @@ body {
 }
 
 body ::selection,
-body::selection{
+body::selection {
     color: orangered;
     background: #FFDE59;
 }
@@ -42,11 +42,11 @@ header a:active {
     text-decoration: underline;
 }
 
-ul {
+header ul {
     padding-left: 0%;
 }
 
-li {
+header li {
     display: inline-block;
     margin-left: 2%;
 }
@@ -63,11 +63,11 @@ li {
 
 @keyframes girando {
     to {
-        transform: rotate(-45deg);
+        transform: rotate(-270deg);
     }
 
     from {
-        transform: rotate(45deg);
+        transform: rotate(90deg);
     }
 }
 
@@ -87,6 +87,10 @@ main p {
     background: #FFF9E1;
 }
 
+h3{
+    text-align: center;
+}
+
 .impar {
     margin-right: 50%;
 }
@@ -95,25 +99,35 @@ main p {
     margin-left: 50%;
 }
 
-.imgbola{
+.imgbola {
     width: 20%;
 }
-.imgbola:hover{
-    animation: girando 2s ease-in 0s infinite alternate;
+
+.imgbola:hover {
+    animation: girando 5s ease-in 0s infinite alternate;
 }
 
-.legenda{
+.legenda {
     font-size: 70%;
 }
 
-table{
+.mapinha {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#lobliquo {
+    width: 45%;
+}
+
+table {
     text-align: center;
     margin-left: 25%;
     background: #FFDE59;
     border-collapse: collapse;
 }
 
-tr:hover{
+tr:hover {
     background: #ecbf0b;
 }
 
@@ -134,7 +148,8 @@ footer p {
     padding-right: 1.5%;
     margin-left: 3%;
 }
-#arremesso{
+
+#arremesso {
     margin-left: 45%;
     margin-right: 49.5%;
     opacity: 1;
@@ -143,43 +158,61 @@ footer p {
     position: relative;
     animation: lhorizontal 3s ease-in 0s infinite normal;
 }
+
 @keyframes lhorizontal {
-    to{
+    to {
         top: 0;
-        left:0;
+        left: 0;
     }
-    from{
+
+    from {
         transform: translateY(-100%);
         left: -10%;
     }
 }
-main li{
+
+main li {
     opacity: .8;
     display: block;
 }
-dl{
+
+dl {
     opacity: .8;
 }
-dd{
+
+dd {
     margin-left: 0%;
 }
-.bee{
+
+.bee {
     width: 3.5%;
     transition: transform 400ms linear;
 }
-.bee:hover{
+
+.bee:hover {
     transform: translateY(10%);
 }
-.beer{
-    float: right;       
+
+.beer {
+    float: right;
 }
 
-.beel{
+.beel {
     float: left;
 }
-#bee1{
+
+#bee1 {
     margin-left: 45%;
 }
-#creditos{
+
+#b2{
+    margin-right: 45%;
+}
+
+#b3{
+    margin-left: 30%;
+}
+
+#creditos {
     font-size: 85%;
 }
