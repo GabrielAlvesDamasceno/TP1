@@ -25,6 +25,10 @@ header {
     margin-top: -2%;
 }
 
+header img{
+    width: 75%;
+}
+
 header a {
     text-decoration: none;
     color: black;
